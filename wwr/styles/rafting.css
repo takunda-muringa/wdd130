@@ -121,8 +121,11 @@ article img{
     width: 200px;
 }
 footer p{
-    font-style: italic, bold;
-    text-align: right;
+        font-family : 'Bitter';
+        font-style : italic;
+        font-weight : 100;
+        font-display : swap;
+        text-align: right;
 }
 .sociallinks{
     justify-content: left;
