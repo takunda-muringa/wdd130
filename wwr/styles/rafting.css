@@ -76,7 +76,7 @@ section div{
 .TR{
     display: flex;
     justify-content: space-evenly;
-    width: 900;
+    width: 900px;
     padding: 0.5rem;
     
 }
