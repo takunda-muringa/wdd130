@@ -1,15 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Seymour+One&family=Tiny5&display=swap');
+
 
 * {
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+    margin: 10px;
+    border: 2%;
+    box-sizing:border-box;
+    width: 600px;
+    height: auto;
+    border-left: 2%;
+    border-width: 20px;
 }
+
 body{
-    width: 960px;
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
-    background-color: beige;
+    width: 900px;
+    font-family: Merriweather;
+    background-color: #ffffff;
     color: black;
 }
 
@@ -17,31 +22,33 @@ label{
     text-align: center;
 }
 h1{
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-family: Seymour One;
     text-align: center;
 }
 
 header{
-    margin: 0 auto;
-    width: 650px;
+    margin: 60px;;
+    width: 700px;
 }
 
 div{
-    padding: 5px;
+    padding: 20px;
 }
 form{
     padding: 10px;
-    border: 1px solid gray;
-    display: grid;
+    border: 1px solid rgb(229, 235, 233);
+    display:table-row-group;
 }
 
 legend{
-    color: green;
-    margin: 0;
+    color:rgb(15, 236, 33);
+    margin: 0 0 1rem;
+    font-size: 30px;
+    font-style: oblique;
 }
 
 input,input[type="number"], textarea, select{
-    background-color: aquamarine;
+    background-color: hsl(150, 4%, 91%);
 }
 
 textarea{
@@ -54,16 +61,15 @@ textarea{
 button{
     color: rgb(7, 8, 1);
     padding: 1.5rem;
-    background-color: #ba55d8;
-    margin: 1rem;
-    /* background-color: navy; */
-    /* border: none; */
+    background-color: rgb(15, 236, 33);
+    margin: 6rem;
     border-radius: 0.5rem;
-    /* font-size: 1.2rem; */
+    font-family: Tiny5;
+    font-size: 30px;
 }
 
 button:hover{
-    background-color: rgb(217, 217, 42);
+    background-color: #2ac5d9;
     margin: 1rem;
 }
 .quiz2{
