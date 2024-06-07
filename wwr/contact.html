@@ -11,7 +11,7 @@
 <body>
     <header>
         <img src="images/Companylogo.jpg" alt="Rafting Site Logo"> 
-        <nav>
+        <nav class="header">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
@@ -19,18 +19,13 @@
         </nav>  
     </header>
     <main>
-        <div class="hero">
-            <img src="images/heroimage.png" alt="hero image">
-            <h1> Takue Ricch Rafting Company </h1>
-            <article>
-                <h2>Company Moto</h2>
-                <img src="images/happyclients.png" alt="Happy Clients">
-                <p>This is our Contact Us page. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ratione nesciunt repellendus cumque, sapiente sequi a blanditiis praesentium quaerat nihil nostrum eaque tenetur fugiat exercitationem eum ut aspernatur, ullam ipsum.</p>
-            </article>
+        <div class="contact">
+            <img src="images/happyclients.png" alt="happyclients">
+            <h1> Contact Us </h1>
         </div>
     
             <h2>Company information</h2>
-             <div class="Contact Information">
+             <div class="Contacts">
                 <div>
                     <h3>Address</h3>
                          <p>Crown Plaza mall 4th street </p>
@@ -44,34 +39,69 @@
                 <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1089.7423327294064!2d32.66113840538553!3d-18.982360439828078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x192cea695e55d54f%3A0xcc229bd0b89d0f3!2sMutare!5e0!3m2!1sen!2szw!4v1717536857151!5m2!1sen!2szw" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>             
                 </div>
-
-            </div>
-    
+                
         <section>
-            <h2>Adventure Awaits You!</h2>
-            <div>
+            <h2>Happy Employees</h2>
+            <div class="happy_employees">
                 <figure>
-                    <img src="images/grandcanyon.png" alt="Grandcanyon">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, placeat?</figcaption>
+                    <img src="images/employee1.png" alt="employee1">
+                    <figcaption>Tour Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/womenrafting.png" alt="Women Rafting">
-                    <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, ipsum.</figcaption>
+                    <img src="images/employee2.png" alt="employee2">
+                    <figcaption>Manager</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/raftingfalls.png" alt="Rafting Falls">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloribus?</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/raftingsolo.png" alt=" Rafting solo">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, qui.</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/teamwork.png" alt=" Teamwork">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ea!</figcaption>
+                    <img src="images/employee3.png" alt="employee3">
+                    <figcaption>Tuitor</figcaption>
                 </figure>
             </div>
         </section>
+        <section>
+            <h2>Information Page</h2>
+           <div class="Button">
+           <form action="#" method="post">
+                <div class="input-group">
+                    <label for="full name"> Full Name</label>
+                    <input type="text" id="name" name="full name required">
+                </div>
+                <div class="input-group">
+                    <label for="Email Address">Email Address</label>
+                    <input type="email address" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="contact">contact</label>
+                    <input type="integer" id="contact" name="contact" required>
+                </div>
+                <div class="input-group">
+                    <label for="Numbers"> Give us the number of people you are bringing.</label>
+                    <input type="number" id="q4" name="q4" value="0" min="5" max="8">
+                </div>
+                <div class="input-group">
+                <label for="Activity">Activity</label>
+                    <select name="Activity" id="Activity">
+                        <option value="Swiming">Swiming</option>
+                        <option value="Rafting">Rafting</option>
+                        <option value="Site seeing">Site seeing</option>
+                                                                              
+                    </select>
+                </div>
+                
+                <div class="T">
+                <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" rows="3">Comments</textarea>
+                </div>
+                <div>
+                    <label for="subscribe">Please subscribe me the Monthly Newsletter</label>
+                    <input type="checkbox" id="subscribe" value="subscribe" name="subscribe">
+                </div>
+                </fieldset>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+           </div>
+        </section>
+
     </main>
     <footer>
         <p><strong>© 2024 Takue Ricch Rafting Company Limited | Takunda Praise Muringa</strong></p>

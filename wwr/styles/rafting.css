@@ -55,6 +55,11 @@ article h2{
     color: white;
 }
 
+label{
+    padding: .2rem;
+    margin: 1px;
+}
+
 h2{
     position: relative;
     font-family: 'Kanit', cursive;
@@ -67,7 +72,9 @@ nav{
     text-align: center;
     color: yellow;
     background-color: rgb(22, 224, 224);
+    flex: 1;
 }
+
 section div{
     display: flex;
     width: 960px;
@@ -78,6 +85,7 @@ section div{
     justify-content: space-evenly;
     width: 900px;
     padding: 0.5rem;
+    font-family: 'Kanit', cursive;;
     
 }
 .TR img {
@@ -122,7 +130,7 @@ footer{
 article{
     position: absolute;
     top: 100px;
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
 }
 article img{
     float: right;
@@ -153,4 +161,104 @@ footer p{
 
  a {
     text-decoration: none;
+}
+buttton
+.body {
+    font-family:'Kanit', cursive ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container {
+    width: 80%;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Kanit', cursive;
+}
+.login-container{
+    text-align: center;
+    font-family:'Kanit', cursive ;
+}
+.input-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: 'Kanit', cursive;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Kanit', cursive;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Kanit', cursive;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Bitter', sans-serif;;
+}
+.btn:hover {
+    background-color: rgb(11, 194, 72);
+}
+
+article{
+    position: absolute;
+    top: 100px;
+    background-color: #000000;
+    font-family: 'Kanit', cursive;
+}
+
+.contact{
+    position: relative;
+    display:grid;
+    background-color: #ffffff;
+}
+
+.contact img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1{
+    font-family: 'Kanit', cursive;
+    background-color: #ffffff;
+    color: #000000;
+    position: absolute;
+    max-width: 100%;
+    height: 100px;
+}
+
+.Contacts {
+    display: block;
+    justify-content: baseline;
+    font-family: 'Kanit', cursive;
+}
+
+.link{
+    background-color: hsl(199, 93%, 50%);
+    width: 140px;
+    padding: 0.5rem;
+    font-family:'Kanit', cursive; 
+}
+.M{
+    padding: 4px;
+    background-color: hsl(207, 89%, 50%);
+    width: 200px;
+    height: 100px;
+    font-family: 'Kanit', cursive;
 }
