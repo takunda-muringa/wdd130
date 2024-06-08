@@ -139,6 +139,11 @@ article img{
     float: right;
     width: 200px;
 }
+.contact-infor {
+    display: grid;
+    justify-content: auto;
+    font-family: 'Kanit', cursive;
+}
 footer p{
         font-family : 'Bitter';
         font-style : italic;
@@ -243,11 +248,7 @@ h1{
     height: 100px;
 }
 
-.contact-infor {
-    display: block;
-    justify-content: baseline;
-    font-family: 'Kanit', cursive;
-}
+
 
 .link{
     background-color: hsl(199, 93%, 50%);
